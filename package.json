@@ -1,0 +1,22 @@
+{
+  "name": "sisnetsensorapi",
+  "version": "1.0.0",
+  "description": "Sisnet Zipato API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "valerian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
